@@ -14,15 +14,29 @@ body {
   height: 100vh;
   background-image: linear-gradient(
     30deg,
-    hsl(37deg 44% 66%) 0%,
-    hsl(38deg 44% 70%) 17%,
-    hsl(40deg 45% 73%) 27%,
-    hsl(42deg 46% 77%) 37%,
-    hsl(44deg 48% 80%) 46%,
-    hsl(46deg 51% 84%) 55%,
-    hsl(49deg 57% 88%) 65%,
-    hsl(52deg 68% 91%) 77%,
-    hsl(55deg 100% 95%) 100%
+    hsl(0deg 0% 14%) 0%,
+    hsl(31deg 8% 18%) 9%,
+    hsl(32deg 12% 22%) 14%,
+    hsl(32deg 16% 27%) 18%,
+    hsl(32deg 18% 31%) 22%,
+    hsl(33deg 20% 36%) 26%,
+    hsl(33deg 22% 41%) 29%,
+    hsl(33deg 23% 46%) 32%,
+    hsl(33deg 25% 51%) 36%,
+    hsl(33deg 32% 56%) 39%,
+    hsl(34deg 41% 61%) 42%,
+    hsl(34deg 53% 66%) 46%,
+    hsl(34deg 53% 67%) 49%,
+    hsl(34deg 54% 68%) 52%,
+    hsl(34deg 55% 69%) 56%,
+    hsl(34deg 55% 70%) 59%,
+    hsl(34deg 56% 71%) 63%,
+    hsl(35deg 57% 72%) 67%,
+    hsl(35deg 58% 74%) 71%,
+    hsl(35deg 59% 75%) 75%,
+    hsl(35deg 60% 76%) 80%,
+    hsl(35deg 61% 77%) 87%,
+    hsl(35deg 63% 78%) 100%
   );
 }
 
@@ -44,6 +58,7 @@ body {
   width: 150px;
   height: 150px;
   position: absolute;
+  top: 120px;
 }
 
 /* Centro de la flor */
@@ -88,7 +103,7 @@ body {
 .stem {
   width: 25px;
   height: 300px;
-  background-color: #92b361;
+  background-color: #345F04;
   margin-top: -20px;
   position: relative;
   bottom: -200px;
@@ -100,7 +115,7 @@ body {
   height: 100px;
   z-index: 20;
   position: relative;
-  bottom: -70px;
+  bottom: -200px;
   background: #fff;
 
   display: flex;
