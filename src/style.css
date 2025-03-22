@@ -14,29 +14,29 @@ body {
   height: 100vh;
   background-image: linear-gradient(
     30deg,
-    hsl(0deg 0% 14%) 0%,
-    hsl(31deg 8% 18%) 9%,
-    hsl(32deg 12% 22%) 14%,
-    hsl(32deg 16% 27%) 18%,
-    hsl(32deg 18% 31%) 22%,
-    hsl(33deg 20% 36%) 26%,
-    hsl(33deg 22% 41%) 29%,
-    hsl(33deg 23% 46%) 32%,
-    hsl(33deg 25% 51%) 36%,
-    hsl(33deg 32% 56%) 39%,
-    hsl(34deg 41% 61%) 42%,
-    hsl(34deg 53% 66%) 46%,
-    hsl(34deg 53% 67%) 49%,
-    hsl(34deg 54% 68%) 52%,
-    hsl(34deg 55% 69%) 56%,
-    hsl(34deg 55% 70%) 59%,
-    hsl(34deg 56% 71%) 63%,
-    hsl(35deg 57% 72%) 67%,
-    hsl(35deg 58% 74%) 71%,
-    hsl(35deg 59% 75%) 75%,
-    hsl(35deg 60% 76%) 80%,
-    hsl(35deg 61% 77%) 87%,
-    hsl(35deg 63% 78%) 100%
+    hsl(0deg 0% 0%) 0%,
+    hsl(344deg 0% 2%) 9%,
+    hsl(344deg 0% 4%) 14%,
+    hsl(344deg 0% 5%) 18%,
+    hsl(344deg 0% 7%) 22%,
+    hsl(344deg 0% 8%) 26%,
+    hsl(344deg 0% 9%) 29%,
+    hsl(344deg 0% 10%) 32%,
+    hsl(344deg 0% 11%) 36%,
+    hsl(344deg 0% 12%) 39%,
+    hsl(344deg 0% 13%) 42%,
+    hsl(344deg 0% 14%) 46%,
+    hsl(344deg 0% 15%) 49%,
+    hsl(344deg 0% 16%) 52%,
+    hsl(344deg 0% 17%) 56%,
+    hsl(344deg 0% 18%) 59%,
+    hsl(344deg 0% 20%) 63%,
+    hsl(344deg 0% 21%) 67%,
+    hsl(344deg 0% 22%) 71%,
+    hsl(344deg 0% 23%) 75%,
+    hsl(344deg 0% 24%) 80%,
+    hsl(344deg 0% 25%) 87%,
+    hsl(0deg 0% 26%) 100%
   );
 }
 
@@ -116,7 +116,7 @@ body {
   z-index: 20;
   position: relative;
   bottom: -200px;
-  background: #fff;
+  background: rgba(255, 255, 255, .4);
 
   display: flex;
   justify-content: center;
@@ -126,9 +126,11 @@ body {
 
 .card p {
   font-size: 20px;
-  color: #000;
+  color: #fff;
   font-weight: bold;
   text-align: center;
   font-family: 'Lobster', sans-serif;
   padding: 1rem;
+
+  
 }
