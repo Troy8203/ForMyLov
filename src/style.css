@@ -1,0 +1,119 @@
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  max-height: 100vh;
+  height: 100vh;
+  background-image: linear-gradient(
+    30deg,
+    hsl(37deg 44% 66%) 0%,
+    hsl(38deg 44% 70%) 17%,
+    hsl(40deg 45% 73%) 27%,
+    hsl(42deg 46% 77%) 37%,
+    hsl(44deg 48% 80%) 46%,
+    hsl(46deg 51% 84%) 55%,
+    hsl(49deg 57% 88%) 65%,
+    hsl(52deg 68% 91%) 77%,
+    hsl(55deg 100% 95%) 100%
+  );
+}
+
+/* Contenedor principal */
+.flower-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+/* Flor */
+.flower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+
+/* Centro de la flor */
+.center {
+  width: 100px;
+  height: 100px;
+  background-color: #5f2510; /* Amarillo oscuro */
+  border-radius: 50%;
+  z-index: 2; /* Para que esté sobre los pétalos */
+  transform: translateY(75px);
+}
+
+/* Contenedor de pétalos */
+.petals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* Pétalos */
+.petal {
+  width: 90px;
+  height: 150px;
+  background-color: #fcc900;
+  border-radius: 50%;
+  position: absolute;
+  transform-origin: bottom center;
+}
+
+/* Posicionamiento de los pétalos */
+.petal:nth-child(1) { transform: rotate(12deg) translateY(-30px); }
+.petal:nth-child(2) { transform: rotate(74deg) translateY(-30px); }
+.petal:nth-child(3) { transform: rotate(132deg) translateY(-30px); }
+.petal:nth-child(4) { transform: rotate(192deg) translateY(-30px); }
+.petal:nth-child(5) { transform: rotate(252deg) translateY(-30px); }
+.petal:nth-child(6) { transform: rotate(312deg) translateY(-30px); }
+
+/* Tallo */
+.stem {
+  width: 25px;
+  height: 300px;
+  background-color: #92b361;
+  margin-top: -20px;
+  position: relative;
+  bottom: -200px;
+  z-index: -10;
+}
+
+.card{
+  width: 200px;
+  height: 100px;
+  z-index: 20;
+  position: relative;
+  bottom: -70px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.card p {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Lobster', sans-serif;
+  padding: 1rem;
+}
